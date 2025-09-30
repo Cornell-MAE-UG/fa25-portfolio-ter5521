@@ -12,5 +12,5 @@ Given a 2D design space of 150cm long and 50cm tall, a rigid bar of a fixed leng
 
 This is how I solved the problem:
 
-<a href="/Portfolio Problem.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
+<embed src="Portfolio Problem.pdf" type="application/pdf" width="100%" height="600px" />
 
