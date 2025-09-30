@@ -13,3 +13,5 @@ Given a 2D design space of 150cm long and 50cm tall, a rigid bar of a fixed leng
 This is how I solved the problem:
 
 <embed src="/Portfolio_Problem.pdf" type="application/pdf" width="100%" height="600px" />
+
+[Click here to open the PDF in a new tab](./Portfolio_Problem.pdf)
