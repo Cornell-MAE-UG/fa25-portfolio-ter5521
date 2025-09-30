@@ -1,7 +1,7 @@
 ---
 layout: Project
 title: Linear Actuator
-description: Class project with Graphs
+description: Linear Actuator Lifting Design
 technologies: Drawing
 ---
 
@@ -12,5 +12,4 @@ Given a 2D design space of 150cm long and 50cm tall, a rigid bar of a fixed leng
 
 This is how I solved the problem:
 
-<embed src="Portfolio Problem.pdf" type="application/pdf" width="100%" height="600px" />
-
+<iframe src="/Portfolio Problem.pdf" width="100%" height="600px" style="border:none;"></iframe>
