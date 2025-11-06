@@ -12,4 +12,4 @@ Given a 2D design space of 150cm long and 50cm tall, a rigid bar of a fixed leng
 
 This is how I solved the problem:
 
-[Click here to open the PDF in a new tab](./Portfolio_Problem.pdf)
+[Click here to open the PDF in a new tab](./Statics_Portfolio_Problem.pdf)
