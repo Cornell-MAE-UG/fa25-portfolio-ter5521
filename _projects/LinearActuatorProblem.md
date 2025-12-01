@@ -1,5 +1,5 @@
 ---
-layout: Project
+layout: default
 title: Linear Actuator
 description: Linear Actuator Lifting Design
 technologies: Drawing
