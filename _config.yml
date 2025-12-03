@@ -22,6 +22,12 @@ color_scheme: light # light/default, dark, or aqua
 sass:
   style: compressed
 
+# Markdown and Math
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+
 # Outputting
 permalink: /:categories/:title/
 
@@ -31,11 +37,6 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
-
-# Markdown
-markdown: kramdown
-kramdown:
-  input: GFM
 
 # Plugins (previously gems:)
 plugins:

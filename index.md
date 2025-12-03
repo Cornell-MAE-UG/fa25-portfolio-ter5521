@@ -6,7 +6,7 @@ title: Tyson Russell
 ## About Me
 
 
-![Profile Picture]({{ "assets/images/profile-pic.jpg" | relative_url }}){: class="profile-image"}
+![Profile Picture]({{ "assets/images/Headshot.jpg" | relative_url }}){: class="profile-image"}
 
  
 My name is {{ site.name }}
