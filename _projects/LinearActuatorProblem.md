@@ -3,6 +3,7 @@ layout: default
 title: Linear Actuator
 description: Linear Actuator Lifting Design
 technologies: Drawing
+image: "/assets/images/Linear Actuator.jpg"
 ---
 # ENGRD 2020: Linear Actuator Mechanism Design Problem
 
