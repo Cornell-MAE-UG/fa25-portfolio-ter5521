@@ -16,22 +16,22 @@ The Raptor nozzle is a bell-shaped, converging-diverging duct designed to accele
 2.  **Throat (Converging Section):** The flow accelerates subsonically until it reaches the nozzle throat (minimum area), where it becomes **sonic (Mach 1)**. This is a "choked flow" condition.
 3.  **Exit (Diverging Section):** Downstream of the throat, the area expands. Because the flow is supersonic, this area increase causes the gas to expand (pressure drops) and accelerate further (velocity increases), converting internal energy ($u$) and flow work ($Pv$) into kinetic energy.
 
-<figure class="project-image">
-	<img src="{{ "/assets/images/Engine.png" | relative_url }}" alt="Photo of the SpaceX Raptor V2 engine side view" />
-	<figcaption>Figure 1: The SpaceX Raptor V2 Engine, displaying the regenerative cooling channels on the bell nozzle. (Source: SpaceX)</figcaption>
+<figure class="project-image" style="text-align: center;">
+    <img src="{{ "/assets/images/Engine.png" | relative_url }}" alt="Photo of the SpaceX Raptor V2 engine side view" style="max-width: 50%;" />
+    <figcaption>Figure 1: The SpaceX Raptor V2 Engine, displaying the regenerative cooling channels on the bell nozzle. (Source: SpaceX)</figcaption>
 </figure>
 
-<figure class="project-image">
-	<img src="{{ "/assets/images/De_Laval_nozzle_2.png" | relative_url }}" alt="Schematic of De Laval nozzle showing Pressure, Temperature, and Velocity trends" />
-	<figcaption>Figure 2: Cross-sectional schematic of nozzle geometry showing the inverse relationship between pressure and velocity in the diverging section. (Source: Citizendium)</figcaption>
+<figure class="project-image" style="text-align: center;">
+    <img src="{{ "/assets/images/De_Laval_nozzle_2.png" | relative_url }}" alt="Schematic of De Laval nozzle showing Pressure, Temperature, and Velocity trends" style="max-width: 50%;" />
+    <figcaption>Figure 2: Cross-sectional schematic of nozzle geometry showing the inverse relationship between pressure and velocity in the diverging section. (Source: Citizendium)</figcaption>
 </figure>
 
 ## 3. System Diagram and Thermodynamic Model
 We define the Control Volume (CV) enclosing the gas flowing from the combustion chamber exit (State 1) to the nozzle exit plane (State 2).
 
-<figure class="project-image">
-	<img src="{{ "/assets/images/NozzleCVDiagram.jpg" | relative_url }}" alt="Control Volume diagram of nozzle with mass flow and state labels" />
-	<figcaption>Figure 3: Control Volume (CV) for the nozzle analysis. $\dot{Q} \approx 0$ and $\dot{W} = 0$.</figcaption>
+<figure class="project-image" style="text-align: center;">
+    <img src="{{ "/assets/images/NozzleCVDiagram.jpg" | relative_url }}" alt="Control Volume diagram of nozzle with mass flow and state labels" style="max-width: 80%;" />
+    <figcaption>Figure 3: Control Volume (CV) for the nozzle analysis.</figcaption>
 </figure>
 
 ### Assumptions:
@@ -106,9 +106,9 @@ If we swapped the nozzle for a larger "Raptor Vacuum" nozzle (Expansion ratio ~9
 * $P_{amb} > P_{exit}$. The atmosphere crushes the exhaust plume.
 * **Performance Impact:** This causes **Flow Separation**. The flow detaches from the nozzle walls, causing chaotic shock waves inside the nozzle. This can mechanically destroy the engine and significantly reduces isentropic efficiency ($\eta_N$) and thrust.
 
-<figure class="project-image">
-	<img src="{{ "/assets/images/NozzleSituations.png" | relative_url }}" alt="Comparison diagram of Over-expanded, Under-expanded, and Optimal nozzle plumes" />
-	<figcaption>Figure 4: Impact of ambient pressure on plume geometry. Note the "shock diamonds" present in non-optimal expansion regimes. (Source: ResearchGate)</figcaption>
+<figure class="project-image" style="text-align: center;">
+    <img src="{{ "/assets/images/NozzleSituations.png" | relative_url }}" alt="Comparison diagram of Over-expanded, Under-expanded, and Optimal nozzle plumes" style="max-width: 85%;" />
+    <figcaption>Figure 4: Impact of ambient pressure on plume geometry. Note the shock waves present in non-optimal expansion regimes. (Source: ResearchGate)</figcaption>
 </figure>
 
 ## 7. Conclusion

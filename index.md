@@ -5,11 +5,15 @@ title: Tyson Russell
 
 ## About Me
 
-
-![Profile Picture]({{ "assets/images/Headshot.jpg" | relative_url }}){: class="profile-image"}
-
- 
-My name is {{ site.name }}
+<div style="display: flex; align-items: center; gap: 20px;">
+    <img src="{{ '/assets/images/Headshot.jpg' | relative_url }}" alt="Profile Picture" style="width: 150px; border-radius: 15px; object-fit: cover;">
+    <div>
+        <p style="margin: 0 0 5px 0;">My name is {{ site.name }}</p> 
+        <p style="margin: 0;">
+            Take a look at <a href="{{ '/projects/' | relative_url }}">my projects</a> and <a href="{{ '/cv/' | relative_url }}">CV</a>.
+        </p>
+    </div>
+</div>
 
 <!--
 , and I am [your pitch paragraph about your passions, knowledge and interestst.] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
@@ -18,4 +22,3 @@ Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ult
 
 -->
 
-Take a look at <a href="{{ "/projects/" | relative_url }}">my projects</a> and <a href="{{ "/cv/" | relative_url }}">CV</a>.

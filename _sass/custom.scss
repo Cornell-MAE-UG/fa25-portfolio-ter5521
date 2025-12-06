@@ -97,8 +97,11 @@ footer {
 .profile-image {
   float: left;
   margin: 20px 25px 25px 0;
-  width: 150px;
+  width: 120px;
+  max-height: 150px;
+  height: auto;
   vertical-align: top;
+  object-fit: cover;
 }
 
 .project-image {

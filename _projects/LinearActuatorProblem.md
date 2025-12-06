@@ -3,7 +3,7 @@ layout: default
 title: Linear Actuator
 description: Linear Actuator Lifting Design
 technologies: Drawing
-image: "/assets/images/Linear Actuator.jpg"
+image: "/assets/images/linearactuator.jpg"
 ---
 # ENGRD 2020: Linear Actuator Mechanism Design Problem
 
@@ -64,7 +64,7 @@ $$W_{max} = \frac{370,991}{138.6} \approx \mathbf{2,677 \text{ N}}$$
 
 ### C. Final Mechanism Design
 
-![Mechanism Sketch]({{ "/assets/images/Linear Actuator.jpg" | relative_url }}){: .project-image}
+![Mechanism Sketch]({{ "/assets/images/linearactuator.jpg" | relative_url }}){: .project-image}
 *Figure 1: Schematic of the lifting mechanism showing the critical starting position.*
 
 ---
@@ -139,5 +139,5 @@ Since $I_{actual} (371,412) > I_{req} (109,000)$, the design is extremely safe a
 
 ### C. Final Beam Design
 
-![Beam Cross Section]({{ "/assets/images/Beam Cross Section.jpg" | relative_url }}){: .project-image}
+![Beam Cross Section]({{ "/assets/images/beam-cross-section.jpg" | relative_url }}){: .project-image}
 *Figure 2: Final selection: 60x60x3mm Steel Square Hollow Section.*
