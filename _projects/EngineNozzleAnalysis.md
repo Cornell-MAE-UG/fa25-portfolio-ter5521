@@ -3,7 +3,7 @@ layout: default
 title: Nozzle Analysis
 description: Linear Actuator Lifting Design
 technologies: Drawing
-image: "/assets/images/spaceship-design.jpg"
+image: "/assets/images/Engine.png"
 ---
 # Thermodynamic Analysis of the SpaceX Raptor V2 Engine Nozzle
 
@@ -16,21 +16,27 @@ The Raptor nozzle is a bell-shaped, converging-diverging duct designed to accele
 2.  **Throat (Converging Section):** The flow accelerates subsonically until it reaches the nozzle throat (minimum area), where it becomes **sonic (Mach 1)**. This is a "choked flow" condition.
 3.  **Exit (Diverging Section):** Downstream of the throat, the area expands. Because the flow is supersonic, this area increase causes the gas to expand (pressure drops) and accelerate further (velocity increases), converting internal energy ($u$) and flow work ($Pv$) into kinetic energy.
 
-![Photo of the SpaceX Raptor V2 engine side view](raptor_v2_engine.jpg)
-*Figure 1: The SpaceX Raptor V2 Engine, displaying the regenerative cooling channels on the bell nozzle.*
+<figure class="project-image">
+	<img src="{{ "/assets/images/Engine.png" | relative_url }}" alt="Photo of the SpaceX Raptor V2 engine side view" />
+	<figcaption>Figure 1: The SpaceX Raptor V2 Engine, displaying the regenerative cooling channels on the bell nozzle. (Source: SpaceX)</figcaption>
+</figure>
 
-![Schematic of De Laval nozzle showing Pressure, Temperature, and Velocity trends](nozzle_ptv_diagram.png)
-*Figure 2: Cross-sectional schematic of nozzle geometry showing the inverse relationship between pressure and velocity in the diverging section.*
+<figure class="project-image">
+	<img src="{{ "/assets/images/De_Laval_nozzle_2.png" | relative_url }}" alt="Schematic of De Laval nozzle showing Pressure, Temperature, and Velocity trends" />
+	<figcaption>Figure 2: Cross-sectional schematic of nozzle geometry showing the inverse relationship between pressure and velocity in the diverging section. (Source: Citizendium)</figcaption>
+</figure>
 
 ## 3. System Diagram and Thermodynamic Model
 We define the Control Volume (CV) enclosing the gas flowing from the combustion chamber exit (State 1) to the nozzle exit plane (State 2).
 
-![Control Volume diagram of nozzle with mass flow and state labels](raptor_cv_diagram.png)
-*Figure 3: Control Volume (CV) for the nozzle analysis. $\dot{Q} \approx 0$ and $\dot{W} = 0$.*
+<figure class="project-image">
+	<img src="{{ "/assets/images/NozzleCVDiagram.jpg" | relative_url }}" alt="Control Volume diagram of nozzle with mass flow and state labels" />
+	<figcaption>Figure 3: Control Volume (CV) for the nozzle analysis. $\dot{Q} \approx 0$ and $\dot{W} = 0$.</figcaption>
+</figure>
 
 ### Assumptions:
 1.  **Steady State:** The engine is firing at a constant thrust level.
-2.  **Adiabatic:** $\dot{Q} = 0$. While the nozzle is regeneratively cooled, the heat loss is small compared to the immense enthalpy flux of the exhaust gas.
+2.  **Adiabatic:** $\dot{Q} \approx 0$. While the nozzle is regeneratively cooled, the heat loss is small compared to the immense enthalpy flux of the exhaust gas.
 3.  **No Work:** $\dot{W} = 0$. The nozzle has no moving shafts or pistons.
 4.  **Potential Energy:** $\Delta PE \approx 0$.
 5.  **Ideal Gas:** We treat the exhaust gas as an ideal gas with constant average specific heats.
@@ -100,8 +106,10 @@ If we swapped the nozzle for a larger "Raptor Vacuum" nozzle (Expansion ratio ~9
 * $P_{amb} > P_{exit}$. The atmosphere crushes the exhaust plume.
 * **Performance Impact:** This causes **Flow Separation**. The flow detaches from the nozzle walls, causing chaotic shock waves inside the nozzle. This can mechanically destroy the engine and significantly reduces isentropic efficiency ($\eta_N$) and thrust.
 
-![Comparison diagram of Over-expanded, Under-expanded, and Optimal nozzle plumes](nozzle_plume_comparison.png)
-*Figure 4: Impact of ambient pressure on plume geometry. Note the "shock diamonds" present in non-optimal expansion regimes.*
+<figure class="project-image">
+	<img src="{{ "/assets/images/NozzleSituations.png" | relative_url }}" alt="Comparison diagram of Over-expanded, Under-expanded, and Optimal nozzle plumes" />
+	<figcaption>Figure 4: Impact of ambient pressure on plume geometry. Note the "shock diamonds" present in non-optimal expansion regimes. (Source: ResearchGate)</figcaption>
+</figure>
 
 ## 7. Conclusion
 The Raptor V2 nozzle effectively uses the principles of steady-flow energy conversion to turn high-pressure enthalpy into kinetic energy. However, its efficiency is tightly coupled to the ambient pressure. A nozzle optimized for sea level loses efficiency in a vacuum due to under-expansion, while a vacuum-optimized nozzle risks flow separation and damage if operated at sea level. This necessitates different nozzle designs (Raptor Sea Level vs. Raptor Vacuum) for different stages of flight.
