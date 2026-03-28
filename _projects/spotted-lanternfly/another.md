@@ -16,7 +16,49 @@ For our last ODP assignment, we did a lot of testing similar to what is expected
 
 Our previous prototype proved that our device could have an approximately 20 pound-foot moment at the end of it and still be manageable to control. This is much more than we will need to actually hold with our device. The handle and rod setup have already been tested, so this prototype is focused solely on the scraper itself (the part we haven’t tested). Essentially, our findings from our last prototype led us to create a relatively simple prototype for this week, as seen in the documentation below.
 
+<div class="project-content">
+
 ![ODP 4 Prototype and Testing Highlights]({{ site.baseurl }}/assets/images/ODP4Summary.png)
+
+---
+
+## Documentation
+
+### Parts Used
+* 1.158” diameter Wooden Rod found in lab
+* Custom 3D-printed scraper
+
+### Design Intent Sketches/CAD
+
+![CAD Sketch and Dimensions]({{ site.baseurl }}/assets/images/CADsketches.png)
+
+**Dimensions:**
+* **Bottom length:** 10” (from edge of the scraper to bottom end of hole)
+* **Height:** 5.5” (from bottom plane to top of arch)
+* **Width:** 6”
+* **Length of cylinder (for press-fit):** 2.5”
+
+### Instructions for Assembly
+* We sanded down the wooden rod slightly to better press-fit it into the scraper’s cylindrical hole.
+* The press-fit was the best technique for prototype purposes and could probably be used again for the final design, but we will likely add a notch to securely prevent rotation of the two parts.
+
+---
+
+## Design Tests
+
+### 1. Scraping Efficacy
+* **Tests:** Scraper ability to collect egg masses.
+* **Procedure:** Put 10 different-shaped egg masses (clay blobs) on the wall and scrape them from different angles (between horizontal and vertical) to simulate scraping egg masses in real life. The heights of the egg masses varied from 126 cm above ground to 200 cm above ground: one was placed about 30 cm from ground for variety (specifically: 29, 126, 143, 145.5, 150, 152, 178, 196, 198, and 200 cm above ground). We scraped each egg mass 1-3 times or until approximately 90% of the clay was gone.
+
+![Scraping Efficacy Setup and Results]({{ site.baseurl }}/assets/images/efficacytests.png)
+
+### 2. Durability Testing
+* **Tests:** Blade and scraper material durability repeated cycles.
+* **Result:** 30 cycles with consistent scraping performance, minor wear.
+
+![Durability Test Results]({{ site.baseurl }}/assets/images/durabilitytests.png)
+
+</div>
 
 ---
 
