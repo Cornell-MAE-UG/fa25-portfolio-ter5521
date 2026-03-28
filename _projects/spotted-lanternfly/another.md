@@ -72,7 +72,7 @@ Esssentially, our findings from our last prototype led us to create a relatively
 * **Tests:** Outside of the durability of the scraping edge, is the scraper strong enough to deal with the loads it must bear to scrape?
 * **Procedure:** We conducted a qualitative dynamic load test by applying the maximum expected user shear force against the abrasive test wall. Additionally, the scraper held a static load equivalent to the mass of the 10 heavy clay test-pieces (approx. 0.5 to 1.0 lbs).
 * **Results:** Besides the receding edge, the scraper held up through all tests we ran. The press-fit joint and 3D-printed walls exhibited zero visible yielding or deflection under these peak operational loads.
-* **Conclusions:** Because the debris consistently settled in the lower quartile of the bowl, we can quantitatively reduce the overall width of the scraper (from edge to rounded backing) by at least 1.0 inch in the next iteration to save material and reduce drag, without compromising the capture rate.
+* **Conclusions:** This means that the scraper geometry we have has thick enough walls and is strong enough for our purposes.
 
 ---
 
