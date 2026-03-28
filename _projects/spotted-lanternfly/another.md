@@ -54,7 +54,6 @@ Esssentially, our findings from our last prototype led us to create a relatively
 
 ![Scraping Efficacy Setup and Results]({{ site.baseurl }}/assets/images/efficacytests.png){: .project-img }
 
-
 ### 2. Scraper Size
 * **Tests:** Is the scraper big enough?
 * **Procedure:** During the efficacy trials, we conducted a visual audit of the debris capture rate.
