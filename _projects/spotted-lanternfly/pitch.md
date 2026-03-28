@@ -4,7 +4,6 @@ title: Open Design Project Pitch
 description: High-reach mechanical scraper prototype for removing egg masses
 technologies: Design
 image: "/assets/images/0728_lanternfly2.jpeg"
-published: false
 ---
 
 # Mechanical Removal of Spotted Lanternfly Egg Masses

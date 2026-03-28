@@ -4,7 +4,6 @@ title: Functional Prototype
 description: Additional content related to the Spotted Lanternfly project
 technologies: Design
 image: "/assets/images/0728_lanternfly2.jpeg"
-published: false
 ---
 
 # ODP 5: Functional Prototype Testing Summary

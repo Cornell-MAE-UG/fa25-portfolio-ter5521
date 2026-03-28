@@ -6,9 +6,9 @@ technologies: Design
 image: "/assets/images/0728_lanternfly2.jpeg"
 ---
 
-# Mechanical Removal of Spotted Lanternfly Egg Masses
+# Mechanical Design Project
 
-Welcome to the project pages for the Mechanical Removal of Spotted Lanternfly Egg Masses.
+Below are some of the deliverables from my team's open design project.
 
 - [Project Pitch](pitch)
 - [Functional Prototype](another)
