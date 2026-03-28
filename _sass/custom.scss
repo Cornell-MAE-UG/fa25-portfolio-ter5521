@@ -111,8 +111,9 @@ footer {
   vertical-align: top;
 }
 
-.project-content img {
-  max-width: 80%;
+.project-content img,
+.project-img {
+  max-width: 70%;
   height: auto;
   display: block;
   margin: 1.5rem auto;
