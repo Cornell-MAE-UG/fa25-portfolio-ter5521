@@ -49,16 +49,11 @@ Esssentially, our findings from our last prototype led us to create a relatively
 ### 1. Scraping Efficacy
 * **Tests:** Scraper ability to collect egg masses.
 * **Procedure:** Put 10 different-shaped egg masses (clay blobs) on the wall and scrape them from different angles (between horizontal and vertical) to simulate scraping egg masses in real life. The heights of the egg masses varied from 126 cm above ground to 200 cm above ground: one was placed about 30 cm from ground for variety (specifically: 29, 126, 143, 145.5, 150, 152, 178, 196, 198, and 200 cm above ground). We scraped each egg mass 1-3 times or until approximately 90% of the clay was gone.
+* **Results:** Overall, the scraper was effective. It was able to scrape more than 90% of the clay for 9/10 of the “egg masses”. The single point of failure occurred at a negative-clearance corner geometry, indicating a required design modification for the scraper’s geometric profile. It is also important to note that these simulated egg masses were heavier and stickier than a real SLF egg mass is.
+* **Conclusions:** Our current scraper geometry is effective on smooth surfaces; it has issues with corners, and we noticed that the scraper’s flared walls make it so that you can only scrape if the scraper is almost flush with the wall. We will probably remove this flare and possibly add a modular attachment/side of our scraper for less even geometry, like corners.
 
 ![Scraping Efficacy Setup and Results]({{ site.baseurl }}/assets/images/efficacytests.png){: .project-img }
 
-### 2. Durability Testing
-* **Tests:** Blade and scraper material durability repeated cycles.
-* **Result:** 30 cycles with consistent scraping performance, minor wear.
-
-![Durability Test Results]({{ site.baseurl }}/assets/images/durabilitytests.png){: .project-img }
-
----
 
 ### 2. Scraper Size
 * **Tests:** Is the scraper big enough?
@@ -70,15 +65,17 @@ Esssentially, our findings from our last prototype led us to create a relatively
 * **Tests:** Is the scraper edge durable enough for repeated use?
 * **Procedure:** We performed an accelerated wear test using an abrasive substrate (sandpaper) to simulate extreme bark conditions. Set up a simulated rough edge with egg masses using clay and sandpaper. Measure the scraper base length. Scrape the rough edge for 2 sets of 20 scrapes and measure the new length of the scraper base after each set.
 * **Results:** Originally the base was 18.7 cm long. After 20 scrapes on sandpaper, it was 18.4 cm. After 20 more scrapes, it went to 18.3 cm.
+* **Conclusions:** Because the debris consistently settled in the lower quartile of the bowl, we can quantitatively reduce the overall width of the scraper (from edge to rounded backing) by at least 1.0 inch in the next iteration to save material and reduce drag, without compromising the capture rate.
 
----
+![Durability Test Results]({{ site.baseurl }}/assets/images/durabilitytests.png){: .project-img }
 
 ### 4. Scraper Load Bearing
 * **Tests:** Outside of the durability of the scraping edge, is the scraper strong enough to deal with the loads it must bear to scrape?
 * **Procedure:** We conducted a qualitative dynamic load test by applying the maximum expected user shear force against the abrasive test wall. Additionally, the scraper held a static load equivalent to the mass of the 10 heavy clay test-pieces (approx. 0.5 to 1.0 lbs).
 * **Results:** Besides the receding edge, the scraper held up through all tests we ran. The press-fit joint and 3D-printed walls exhibited zero visible yielding or deflection under these peak operational loads.
-* **Conclusions:** This means that the scraper geometry we have has thick enough walls and is strong enough for our purposes.
+* **Conclusions:** The scraper edge is not durable enough, especially at the very tip. This can be seen by the decrease in the length of the scraper after just 20 scrapes on a rough surface. This quantifiable material loss rate of 0.1 mm per cycle confirms that the plastic edge is insufficient for long-term deployment, necessitating a transition to a harder material (e.g., folded sheet metal, PETG or a metal insert) for the final prototype. Additionally, while not directly related to the durability of the scraper, the scraper took significantly more effort to scrape the putty off of the rough surface. To reduce this effort, we will look towards decreasing the width of the scraper, which will increase the pressure because there would be less surface area. This is not too worrisome, though, because the putty we used is definitely stickier than SLF egg masses are, and sandpaper is rougher than most materials found outdoors.
 
+---
 
 ## Success Criteria
 
