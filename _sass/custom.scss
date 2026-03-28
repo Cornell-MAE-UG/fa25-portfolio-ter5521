@@ -113,10 +113,13 @@ footer {
 
 .project-content img,
 .project-img {
-  max-width: 70%;
+  width: 100%;
+  max-width: 55%;
   height: auto;
   display: block;
   margin: 1.5rem auto;
+  left: 0;
+  right: 0;
 }
 
 .inline-image {
