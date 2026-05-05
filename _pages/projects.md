@@ -6,15 +6,16 @@ permalink: /projects/
 
 <div class="gallery-container">
 <div class="project-gallery">
+    {% assign hidden_projects = "Open Design Project Pitch,Functional Prototype,Client Pitch,Client Report" | split: "," %}
     {% for project in site.projects %}
-      {% if project.title != "Open Design Project Pitch" and project.title != "Functional Prototype" %}
+      {% unless hidden_projects contains project.title %}
       <div class="gallery-item">
         <a href="{{ project.url | relative_url }}">
           <img src="{{ project.image | default: "/assets/images/default-project.jpg" | relative_url }}" alt="{{ project.title }}" class="project-image" />
           <p>{{ project.title}}</p>
         </a>
       </div>
-      {% endif %}
+      {% endunless %}
     {% endfor %}
 </div>
 </div>

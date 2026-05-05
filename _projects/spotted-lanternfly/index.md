@@ -11,5 +11,6 @@ permalink: /projects/spotted-lanternfly/
 
 Below are some of the deliverables from my team's open design project.
 
-- [Project Pitch](pitch)
+- [Client Pitch](pitch)
 - [Functional Prototype](another)
+- [Client Report](client-report)

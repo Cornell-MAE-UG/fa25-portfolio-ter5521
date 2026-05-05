@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Open Design Project Pitch
+title: Client Pitch
 description: High-reach mechanical scraper prototype for removing egg masses
 technologies: Design
 image: "/assets/images/0728_lanternfly2.jpeg"
