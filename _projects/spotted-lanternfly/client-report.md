@@ -7,6 +7,14 @@ image: "/assets/images/0728_lanternfly2.jpeg"
 math_engine: false
 ---
 
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: []
+  }
+};
+</script>
+
 # High-Reach Mechanical Scraper: Engineering an Accessible Solution for Spotted Lanternfly Egg Mass Removal
 
 **Blue Team:** Andrew Nocilly, Cole Finnan, Mehrab Hossain, Tyson Russell
