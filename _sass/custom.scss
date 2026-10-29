@@ -154,11 +154,11 @@ footer {
 
 .project-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px;
   padding: 20px;
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 560px;
 }
 
 .gallery-item {
@@ -168,13 +168,11 @@ footer {
   width: 100%;
 }
 
-.gallery-item img {
+.gallery-thumbnail {
   width: 100%;
-  height: auto;
   aspect-ratio: 4 / 3;
   display: block;
-  float: none;
-  margin: 0;
+  height: auto;
   object-fit: cover;
   object-position: center;
   border-radius: 8px;
@@ -196,6 +194,13 @@ footer {
 
 .gallery-item:hover {
   transform: translateY(-3px);
+}
+
+@media (max-width: 480px) {
+  .project-gallery {
+    grid-template-columns: minmax(0, 1fr);
+    max-width: 360px;
+  }
 }
 
 .project-image {

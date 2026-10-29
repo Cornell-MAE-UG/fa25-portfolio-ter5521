@@ -11,7 +11,7 @@ permalink: /projects/
       {% unless hidden_projects contains project.title %}
       <div class="gallery-item">
         <a href="{{ project.url | relative_url }}">
-          <img src="{{ project.image | default: "/assets/images/default-project.jpg" | relative_url }}" alt="{{ project.title }}" class="project-image" />
+          <img src="{{ project.image | default: "/assets/images/default-project.jpg" | relative_url }}" alt="{{ project.title }}" class="gallery-thumbnail" />
           <p>{{ project.title}}</p>
         </a>
       </div>
